@@ -1,3 +1,6 @@
 [submodule "qiskit-terra"]
 	path = qiskit-terra
 	url = https://github.com/romainfd/qiskit-terra.git
+[submodule "qiskit-aqua"]
+	path = qiskit-aqua
+	url = https://github.com/romainfd/qiskit-aqua.git

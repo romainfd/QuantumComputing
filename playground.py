@@ -2,6 +2,11 @@ from qiskit.aqua.operators import MatrixOp
 from qiskit.aqua.operators import X, Z
 
 if __name__ == '__main__':
+    z = MatrixOp([[1, 0], [0, -1]])
+    a = Z + z
+    b = z + Z
+    print(a == b)
+
     op = MatrixOp([[1, 0], [0, 0]])
     a = 2 * op
     b = op + op

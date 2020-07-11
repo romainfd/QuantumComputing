@@ -1,6 +1,6 @@
 from qiskit.circuit.library import HGate
 
-from qiskit.aqua.operators import MatrixOp, ComposedOp, SummedOp, X, Z, I, OperatorStateFn, CircuitStateFn, PrimitiveOp
+from qiskit.aqua.operators import MatrixOp, ComposedOp, SummedOp, X, Z, I, OperatorStateFn, PrimitiveOp
 
 if __name__ == '__main__':
     print(

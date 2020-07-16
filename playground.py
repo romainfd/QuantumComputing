@@ -1,9 +1,9 @@
 from qiskit.circuit.library import HGate
 
-from qiskit.aqua.operators import MatrixOp, ComposedOp, SummedOp, X, Z, I, OperatorStateFn, PrimitiveOp, OperatorBase
+from qiskit.aqua.operators import MatrixOp, ComposedOp, SummedOp, X, Z, I, OperatorStateFn, PrimitiveOp, ListOp
 
 if __name__ == '__main__':
-    assert "\t\tString\n\t\tto indent\n" == OperatorBase.indent("String\nto indent\n", indentation="\t\t")
+    assert "\t\tString\n\t\tto indent\n" == ListOp._indent("String\nto indent\n", indentation="\t\t")
 
     print(
         ComposedOp([

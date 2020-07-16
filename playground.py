@@ -35,6 +35,8 @@ if __name__ == '__main__':
         ])
     )
 
+    print(ComposedOp([SummedOp([X, Z])]))
+
     # https://github.com/Qiskit/qiskit-aqua/pull/1111 -> Matrix multiplicative factor (z + z == 2 * z)
     z = MatrixOp([[1, 0], [0, -1]])
     a = Z + z
